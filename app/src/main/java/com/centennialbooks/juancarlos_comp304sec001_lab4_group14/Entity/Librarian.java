@@ -1,7 +1,8 @@
 package com.centennialbooks.juancarlos_comp304sec001_lab4_group14.Entity;
 
-import android.arch.persistence.room.Entity;
-import android.arch.persistence.room.PrimaryKey;
+
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
 
 @Entity(tableName = "librarians")
 public class Librarian {
